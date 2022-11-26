@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "something-site"
+version = "0.1.0"
+description = ""
+authors = ["bcd-leejichan <jiclee@cuneo.co.kr>"]
+readme = "README.md"
+packages = [{include = "something_site"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+django = "^4.1.3"
+djangorestframework = "^3.14.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
