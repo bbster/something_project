@@ -10,6 +10,7 @@ packages = [{include = "something_site"}]
 python = "^3.8"
 django = "^4.1.3"
 djangorestframework = "^3.14.0"
+psycopg2-binary = "^2.9.5"
 
 
 [build-system]
